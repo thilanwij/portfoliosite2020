@@ -159,7 +159,7 @@ nav {
 
 #prev-work img:hover {
     -webkit-filter: brightness(50%);
-    filter: brightness(50%);
+    filter: brightness(55%);
     -webkit-transition: all 0.25s ease;
     -moz-transition: all 0.25s ease;
     -o-transition: all 0.25s ease;
