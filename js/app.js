@@ -21,4 +21,15 @@ const navSlide = () => {
     });
 }
 
+// window.addEventListener('resize',()=>{
+//     if (window.innerWidth < 700) {
+//         nav.style.display = "none";
+//     }
+//     else {
+//         nav.style.display = "block";
+//     }
+
+// });
+
 navSlide();
+//Branch test
