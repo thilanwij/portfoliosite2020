@@ -1,1 +1,35 @@
-// This is a comment
+// This is a commmmment
+const navSlide = () => {
+    const burger = document.querySelector(".burger");
+    const nav = document.querySelector(".nav-links");
+    const navLinks = document.querySelectorAll('.nav-links li');
+
+    burger.addEventListener('click', () => {
+        nav.classList.toggle('nav-active');
+
+        navLinks.forEach((link, index) => {
+            if (link.style.animation){
+                link.style.animation = '';
+            } else {
+                link.style.animation = `navLinkFade 0.4s ease forwards ${index / 7+0.5}s`;
+            }
+        });
+
+        //burger animation
+        // burger.classList.toggle("toggle-burger");
+        burger.classList.toggle("toggle");
+    });
+}
+
+// window.addEventListener('resize',()=>{
+//     if (window.innerWidth < 700) {
+//         nav.style.display = "none";
+//     }
+//     else {
+//         nav.style.display = "block";
+//     }
+
+// });
+
+navSlide();
+//Branch test
