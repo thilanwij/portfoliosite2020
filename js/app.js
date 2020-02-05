@@ -1,4 +1,3 @@
-// This is a commmmment
 const navSlide = () => {
     const burger = document.querySelector(".burger");
     const nav = document.querySelector(".nav-links");
@@ -16,20 +15,8 @@ const navSlide = () => {
         });
 
         //burger animation
-        // burger.classList.toggle("toggle-burger");
         burger.classList.toggle("toggle");
     });
 }
 
-// window.addEventListener('resize',()=>{
-//     if (window.innerWidth < 700) {
-//         nav.style.display = "none";
-//     }
-//     else {
-//         nav.style.display = "block";
-//     }
-
-// });
-
 navSlide();
-//Branch test
