@@ -12,91 +12,84 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body class="default">
-        <!-- <header>
-            <nav>
-                <a href="#"><h1 id="logo">THILANW.COM</h1></a>
-                <ul>
-                    <li class="about"><a href="#">About</a></li>
-                    <li class="contact"><a href="#">Contact</a></li>
-                    
-                    <li class="my-work"><a href="#">My Work</a></li class="contact">
+          <!--End Hero Section-->
+          <section class="nav-hero">
+            <nav class="wrapper">
+                <div class="logo">
+                    <h4>THILANW</h4>
+                </div>
+    
+                <ul class="nav-links">
+                    <li>
+                        <a href="#">My Work</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
                 </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
             </nav>
-        </header>   COMMENTED OUT BECAUSE I AM REDOING NAVBAR-->
+    
+            <!-- begin HERO SECTION -->
+            <section id="hero" class="wrapper">
+                <div class="left-hero">
+                    <h2>Hi, My Name is Thilan.</h2>
+                    <p>I am an aspiring front-end developer and my goal is to help turn your static UI designs into an interactive web experience that seamlessly works on all devices and browsers.</p>
+                    <a class="see-my-work" href="#prev-work">See My Work  <i class="fas fa-angle-double-right"></i></a>
+    
+                </div>
+                <div class="right-hero">
+                    <!-- What should I put here? Should I leave this empty and use an HTML background image? -->
+                    <!-- <h1>TEST HERE</h1> -->
+    
+                </div>
+            </section>
+          </section>
+          <!-- end HERO SECTION -->
 
-        <nav>
-            <div class="logo">
-                <h4>THILANW</h4>
-            </div>
+        <!-- begin PREV WORK SECTION -->
 
-            <ul class="nav-links">
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-                <li>
-                    <a href="#">My Work</a>
-                </li>
-            </ul>
-            <div class="burger">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-        </nav>
-
-
-
-
-
-
-
-
-
-
-
-        
-        <section id="hero">
-            <div class="left-hero">
-                <h2>Hi, My Name is Thilan.</h2>
-                <p>I am a front-end developer. Some of the skills that I have are writing HTML5, CSS3 and basic JavaScript code to help the internet become a better place to be at.</p>
-                <a class="see-my-work" href="#prev-work">See My Work  <i class="fas fa-angle-double-right"></i></a>
-
-            </div>
-            <div class="right-hero">
-                <!-- What should I put here? Should I leave this empty and use an HTML background image? -->
-
-            </div>
-        </section>  <!--End Hero Section-->
-
-        <section id="prev-work">
+        <section id="prev-work" class="wrapper">
             <h2>Previous Work</h2>
             
             <ul class="gallery">
                 <li>
                     <figure>
-                        <a href="#"><img src="images/project-1.jpg" alt="Project 1">
-                            <figcaption>Portfolio Website</figcaption></a>
-                    
+                        <a href="#">
+                            <img src="images/project-1.jpg" alt="Project 1">
+                            <figcaption>Portfolio Website</figcaption>
+                        </a>
                     </figure>
                 </li>
                     
                 <li>
                     <figure>
-                        <img src="images/project-2.jpg" alt="Project 2">
-                        <figcaption>Coming soon...</figcaption>
-                        </figure>
+                        <a href="#">
+                            <img src="images/project-2.jpg" alt="Project 2">
+                            <figcaption>Coming soon...</figcaption>
+                        </a>
+                    </figure>
                 </li>
+
                 <li>
                     <figure>
-                        <img src="images/project-3.jpg" alt="Project 3">
-                        <figcaption>Coming soon...</figcaption>
-                        </figure>
+                        <a class="container" href="#">
+                            <img src="images/project-3.jpg" alt="Project 3">
+                            <figcaption>Coming soon...</figcaption>
+                        </a>
+                    </figure>
                 </li>
             </ul>
         </section>
+
+        <!-- FOOTER SECTION -->
 
         <footer>
             <p>Site hand-coded by Thilan W. - Copyright 2020 </p>
